@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(0deg, rgba(15,26,31,1) 21%, rgba(31,73,195,1) 92%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > h1 {
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header > button {
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+    box-shadow: inset 0px 0px 20px black;
+    border-radius: 25px;
+    background-color: #1877b6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header > button:hover {
+    background-color: #469fdb;
+}
+table{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: inset white 0px 0px 20px;
+
+}
